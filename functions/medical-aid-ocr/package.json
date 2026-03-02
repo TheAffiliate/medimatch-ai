@@ -1,0 +1,18 @@
+{
+  "name": "medical-aid-ocr",
+  "version": "1.0.0",
+  "description": "OCR for South African Medical Aid Cards",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "npm install" 
+  },
+  "dependencies": {
+    "node-appwrite": "^20.2.1",
+    "node-tesseract-ocr": "^2.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
